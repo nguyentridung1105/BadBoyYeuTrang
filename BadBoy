@@ -60,6 +60,14 @@ getgenv().id = "1254768310965506102"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
   end
   })   AddButton(Tab1o, {
+     Name = "MARU HUB MOBILE KAITUN (KEY ADMIN)",
+    Callback = function()
+	 getgenv().Key = "MARU-EQJ29-3E63-EXLK-Y4D7L-XLJCF"
+getgenv().id = "1254768310965506102"
+getgenv().Script_Mode = "Kaitun_Script"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))() 
+  end
+  })   AddButton(Tab1o, {
      Name = "W-azure (NO KEY)",
     Callback = function()
 	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
@@ -72,7 +80,7 @@ getgenv().Key = "GgeMOFZGoRourSJpYJYIpGAItNFELJMz"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
   end
   })   AddButton(Tab1o, {
-     Name = "Banana Cat Hub (KEY 1-KEY ADMIN)",
+     Name = "Banana Cat Hub (KEY 2-KEY ADMIN)",
     Callback = function()
 	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
 getgenv().Key = "xkDdqVzeIMxzzXyVPsjhJWfRIrZmDasp" 
