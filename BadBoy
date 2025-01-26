@@ -83,7 +83,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/mai
 ----- Dropdown 
 
   Dropdown = AddDropdown(Tab1o, {
-     Name = "a",
+     Name = "Ngoại tình",
      Options = {"Yêu Trang lonmup và ngoại tình với Thảo Vy vuto"},
      Default = "Melee",
      Callback = function()
