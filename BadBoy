@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Yêu Trang k8",
-         Animation = "Yêu Trang lonmup và ngoại tình với Thảo Vy vuto "
+         Title = "BadBoyYêuTrang",
+         Animation = "2010"
          },
         Key = {
         KeySystem = false,
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=128933802535491",
+       Image = "http://www.roblox.com/asset/?id=118183261911231",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -31,14 +31,14 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "MAIN"})
-     local Tab2o = MakeTab({Name = "KAITUN"})
-     local Tab3o = MakeTab({Name = "FIX LAG"})
+     local Tab2o = MakeTab({Name = "a"})
+     local Tab3o = MakeTab({Name = "a"})
      
      
 -------TOGGLE 
 
      Toggle = AddToggle(Tab1o, {
-      Name = "Script",
+      Name = "a",
       Default = false,
       Callback = function()
      end
@@ -47,156 +47,53 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "MARU HUB MOBILE (KEY-ADMIN)",
+     Name = "FIX LAG",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+  end
+  })
+     AddButton(Tab1o, {
+     Name = "MARU HUB MOBILE(KEY ADMIN)",
     Callback = function()
 	  getgenv().Key = "MARU-EQJ29-3E63-EXLK-Y4D7L-XLJCF"
 getgenv().id = "1254768310965506102"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
   end
+  })   AddButton(Tab1o, {
+     Name = "2",
+    Callback = function()
+	  
+  end
+  })   AddButton(Tab1o, {
+     Name = "3",
+    Callback = function()
+	  
+  end
+  })   AddButton(Tab1o, {
+     Name = "4",
+    Callback = function()
+	  
+  end
+  })   AddButton(Tab1o, {
+     Name = "FIX LAG",
+    Callback = function()
+	  
+  end
   })
-     AddButton(Tab1o, {
-     Name = "W-Azure(Free)",
-    Callback = function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
-  end
-  })   AddButton(Tab1o, {
-     Name = "Banana Cat Hub (KEY 1-KEY ADMIN)",
-    Callback = function()
-	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
-getgenv().Key = "GgeMOFZGoRourSJpYJYIpGAItNFELJMz" 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
-  end
-  })   AddButton(Tab1o, {
-     Name = "Banana Cat Hub (KEY 2-KEY ADMIN)",
-    Callback = function()
-	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
-getgenv().Key = "xkDdqVzeIMxzzXyVPsjhJWfRIrZmDasp" 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
-  end
-  })   AddButton(Tab1o, {
-     Name = "RedzHub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
-  end
-  })   AddButton(Tab1o, {
-     Name = "HOHO  HUB (V4-Free-GetKey)",
-    Callback = function()
-	  loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HohoV2/refs/heads/main/tempFIx-obfuscated.lua'))()
-  end
-  })   AddButton(Tab1o, {
-     Name = "Mukuro Hub (Script for PC-GetKey)",
-    Callback = function()
-	  loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
-  end
-     AddButton(Tab2o, {
-     Name = "MARU HUB KAITUN MOBILE(KEY-ADMIN)",
-    Callback = function()
-    getgenv().Key = "MARU-EQJ29-3E63-EXLK-Y4D7L-XLJCF"
-getgenv().id = "1254768310965506102"
-getgenv().Script_Mode = "Kaitun_Script"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
-  end
-  })   AddButton(Tab2o, {
-     Name = "Banana Cat Hub(KEY 1-KEY ADMIN)",
-    Callback = function()
-	 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-getgenv().Key = "GgeMOFZGoRourSJpYJYIpGAItNFELJMz"
-getgenv().SettingFarm ={
-    ["Hide UI"] = false,
-    ["Reset Teleport"] = {
-        ["Enabled"] = false,
-        ["Delay Reset"] = 3,
-        ["Item Dont Reset"] = {
-            ["Fruit"] = {
-                ["Enabled"] = true,
-                ["All Fruit"] = true, 
-                ["Select Fruit"] = {
-                    ["Enabled"] = false,
-                    ["Fruit"] = {},
-                },
-            },
-        },
-    },
-    ["Get Items"] = {
-        ["Godhuman"] =  true,
-        ["Skull Guitar"] = true,
-        ["Mirror Fractal"] = true,
-        ["Cursed Dual Katana"] = true,
-    },
-    ["Select Hop"] = { -- 70% will have it
-        ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = true, 
-        ["Hop Find Dough King Get Mirror Fractal"] = false,
-        ["Hop Find Raids Castle [CDK]"] = true,
-        ["Hop Find Cake Queen [CDK]"] = true,
-        ["Hop Find Soul Reaper [CDK]"] = true,
-        ["Hop Find Darkbeard [SG]"] = true,
-    },
-    ["Buy Haki"] = {
-        ["Enhancement"] = false,
-        ["Skyjump"] = true,
-        ["Flash Step"] = true,
-        ["Observation"] = true,
-    },
-    ["Lock Fruit"] = {},
-    ["Webhook"] = {
-        ["Enabled"] = false,
-        ["WebhookUrl"] = "",
-    }
-}
+----- Dropdown 
 
+  Dropdown = AddDropdown(Tab1o, {
+     Name = "a",
+     Options = {"Test 1", "Test 2", "Test 3", "Test 4"},
+     Default = "Melee",
+     Callback = function()
+     end
+   })
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))() 
-  end
-    })   AddButton(Tab2o, {
-     Name = "Banana Cat Hub(KEY 2-KEY ADMIN)",
-    Callback = function()
-	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-getgenv().Key = "xkDdqVzeIMxzzXyVPsjhJWfRIrZmDasp"
-getgenv().SettingFarm ={
-    ["Hide UI"] = false,
-    ["Reset Teleport"] = {
-        ["Enabled"] = false,
-        ["Delay Reset"] = 3,
-        ["Item Dont Reset"] = {
-            ["Fruit"] = {
-                ["Enabled"] = true,
-                ["All Fruit"] = true, 
-                ["Select Fruit"] = {
-                    ["Enabled"] = false,
-                    ["Fruit"] = {},
-                },
-            },
-        },
-    },
-    ["Get Items"] = {
-        ["Godhuman"] =  true,
-        ["Skull Guitar"] = true,
-        ["Mirror Fractal"] = true,
-        ["Cursed Dual Katana"] = true,
-    },
-    ["Select Hop"] = { -- 70% will have it
-        ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = true, 
-        ["Hop Find Dough King Get Mirror Fractal"] = false,
-        ["Hop Find Raids Castle [CDK]"] = true,
-        ["Hop Find Cake Queen [CDK]"] = true,
-        ["Hop Find Soul Reaper [CDK]"] = true,
-        ["Hop Find Darkbeard [SG]"] = true,
-    },
-    ["Buy Haki"] = {
-        ["Enhancement"] = false,
-        ["Skyjump"] = true,
-        ["Flash Step"] = true,
-        ["Observation"] = true,
-    },
-    ["Lock Fruit"] = {},
-    ["Webhook"] = {
-        ["Enabled"] = false,
-        ["WebhookUrl"] = "",
-    }
-}
+----- Section 
+   
+   Section = AddSection(Tab1o, {"a"})          
 
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
-  end
-  }        
-}
+----- Paragraph 
+                    
+   Paragraph = AddParagraph(Farm, {"a", ""})
