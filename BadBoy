@@ -51,6 +51,12 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   end
   })
      AddButton(Tab1o, {
+     Name = "FIX LAG Cilent IOS",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/FixLagAlexSibikidi/refs/heads/main/AntilagNokeyVip.lua.txt"))()
+  end
+  })
+     AddButton(Tab1o, {
      Name = "MARU HUB MOBILE(KEY ADMIN)",
     Callback = function()
 	  getgenv().Key = "MARU-EQJ29-3E63-EXLK-Y4D7L-XLJCF"
