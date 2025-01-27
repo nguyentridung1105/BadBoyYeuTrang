@@ -59,25 +59,139 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 getgenv().id = "1254768310965506102"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
   end
-  })   AddButton(Tab1o, {
-     Name = "2",
+   })   AddButton(Tab1o, {
+     Name = "MARU HUB MOBILE KAITUN (KEY ADMIN)",
     Callback = function()
-	  
+	 getgenv().Key = "MARU-EQJ29-3E63-EXLK-Y4D7L-XLJCF"
+getgenv().id = "1254768310965506102"
+getgenv().Script_Mode = "Kaitun_Script"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))() 
   end
   })   AddButton(Tab1o, {
-     Name = "3",
+     Name = "Banana Cat Hub (KEY 1-KEY ADMIN)",
     Callback = function()
-	  
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+getgenv().Key = "GgeMOFZGoRourSJpYJYIpGAItNFELJMz" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
   end
   })   AddButton(Tab1o, {
-     Name = "4",
+     Name = "Banana Cat Hub (KEY 2-KEY ADMIN)",
     Callback = function()
-	  
+    repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+getgenv().Key = "xkDdqVzeIMxzzXyVPsjhJWfRIrZmDasp" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
   end
   })   AddButton(Tab1o, {
-     Name = "FIX LAG",
+     Name = "Banana Cat Hub KAITUN (KEY 1-KEY ADMIN)",
     Callback = function()
-	  
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "GgeMOFZGoRourSJpYJYIpGAItNFELJMz"
+getgenv().SettingFarm ={
+    ["Hide UI"] = false,
+    ["Reset Teleport"] = {
+        ["Enabled"] = false,
+        ["Delay Reset"] = 3,
+        ["Item Dont Reset"] = {
+            ["Fruit"] = {
+                ["Enabled"] = true,
+                ["All Fruit"] = true, 
+                ["Select Fruit"] = {
+                    ["Enabled"] = false,
+                    ["Fruit"] = {},
+                },
+            },
+        },
+    },
+    ["Get Items"] = {
+        ["Godhuman"] =  true,
+        ["Skull Guitar"] = true,
+        ["Mirror Fractal"] = true,
+        ["Cursed Dual Katana"] = true,
+    },
+    ["Select Hop"] = { -- 70% will have it
+        ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = true, 
+        ["Hop Find Dough King Get Mirror Fractal"] = false,
+        ["Hop Find Raids Castle [CDK]"] = true,
+        ["Hop Find Cake Queen [CDK]"] = true,
+        ["Hop Find Soul Reaper [CDK]"] = true,
+        ["Hop Find Darkbeard [SG]"] = true,
+    },
+    ["Buy Haki"] = {
+        ["Enhancement"] = false,
+        ["Skyjump"] = true,
+        ["Flash Step"] = true,
+        ["Observation"] = true,
+    },
+    ["Lock Fruit"] = {},
+    ["Webhook"] = {
+        ["Enabled"] = false,
+        ["WebhookUrl"] = "",
+    }
+}
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "banana Cat Hub KAITUN (KEY 2-KEY ADMIN)",
+    Callback = function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "xkDdqVzeIMxzzXyVPsjhJWfRIrZmDasp"
+getgenv().SettingFarm ={
+    ["Hide UI"] = false,
+    ["Reset Teleport"] = {
+        ["Enabled"] = false,
+        ["Delay Reset"] = 3,
+        ["Item Dont Reset"] = {
+            ["Fruit"] = {
+                ["Enabled"] = true,
+                ["All Fruit"] = true, 
+                ["Select Fruit"] = {
+                    ["Enabled"] = false,
+                    ["Fruit"] = {},
+                },
+            },
+        },
+    },
+    ["Get Items"] = {
+        ["Godhuman"] =  true,
+        ["Skull Guitar"] = true,
+        ["Mirror Fractal"] = true,
+        ["Cursed Dual Katana"] = true,
+    },
+    ["Select Hop"] = { -- 70% will have it
+        ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = true, 
+        ["Hop Find Dough King Get Mirror Fractal"] = false,
+        ["Hop Find Raids Castle [CDK]"] = true,
+        ["Hop Find Cake Queen [CDK]"] = true,
+        ["Hop Find Soul Reaper [CDK]"] = true,
+        ["Hop Find Darkbeard [SG]"] = true,
+    },
+    ["Buy Haki"] = {
+        ["Enhancement"] = false,
+        ["Skyjump"] = true,
+        ["Flash Step"] = true,
+        ["Observation"] = true,
+    },
+    ["Lock Fruit"] = {},
+    ["Webhook"] = {
+        ["Enabled"] = false,
+        ["WebhookUrl"] = "",
+    }
+}
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
+  end
+    })   AddButton(Tab1o, {
+     Name = "W-Azure (Free)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+    })   AddButton(Tab1o, {
+     Name = "RedzHub (Free)",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
   end
   })
 ----- Dropdown 
