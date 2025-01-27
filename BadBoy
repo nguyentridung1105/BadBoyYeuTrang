@@ -195,7 +195,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitin
 ----- Dropdown 
 
   Dropdown = AddDropdown(Tab1o, {
-     Name = "Ngoại tình",
+     Name = "lol",
      Options = {"Yêu Trang lonmup và ngoại tình với Thảo Vy vuto"},
      Default = "Melee",
      Callback = function()
@@ -204,8 +204,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitin
 
 ----- Section 
    
-   Section = AddSection(Tab1o, {"a"})          
+   Section = AddSection(Tab1o, {"em sai rồi,em hứa em sẽ ngoại tình với 1 đứa thôi"})          
 
 ----- Paragraph 
                     
-   Paragraph = AddParagraph(Farm, {"a", ""})
+   Paragraph = AddParagraph(Farm, {"lol", ""})
